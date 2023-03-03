@@ -124,7 +124,7 @@ section#information .info .info-img {
   height: 150px;
 }
 
-/* Info */
+/* Quote */
 
 section#quote {
   margin-top: 4.5rem;
@@ -190,4 +190,29 @@ footer {
   text-align: center;
   color: #f9faf8;
   padding: 2% 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+  nav {
+    padding: 0 6%;
+  }
+  section#hero {
+    padding: 4% 6%;
+  }
+  section#information #info-container {
+    flex-direction: column;
+  }
+  section#information .info {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  section#cta {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 6% 10%;
+  }
 }
